@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-марка-e",
+  "editForm": "i-i-s-snezhko-eshhe-марка-e",
+  "external": false,
+  "caption": "Марка",
+  "name": "IISSnezhko_eshheМаркаL",
+  "className": "МаркаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-марка",
+      "modelProjection": "МаркаL"
+    }
+  ]
+}

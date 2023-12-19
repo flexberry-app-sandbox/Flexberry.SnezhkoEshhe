@@ -1,0 +1,92 @@
+﻿{
+  "applicationCaption": "Snezhko_eshhe",
+  "applicationTitle": "Snezhko_eshhe",
+  "items": [
+    {
+      "link": null,
+      "menuName": "snezhko-eshhe",
+      "caption": "Snezhko_eshhe",
+      "title": "Snezhko_eshhe",
+      "children": [
+        {
+          "link": "i-i-s-snezhko-eshhe-регист-записи-l",
+          "menuName": null,
+          "caption": "Регист записи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-производитель-l",
+          "menuName": null,
+          "caption": "Производитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-бокс-l",
+          "menuName": null,
+          "caption": "Бокс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-марка-l",
+          "menuName": null,
+          "caption": "Марка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

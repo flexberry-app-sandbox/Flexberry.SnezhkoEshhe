@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-запись-e",
+  "editForm": "i-i-s-snezhko-eshhe-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IISSnezhko_eshheЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}

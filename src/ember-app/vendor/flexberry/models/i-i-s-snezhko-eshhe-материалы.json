@@ -1,0 +1,127 @@
+﻿{
+  "name": "IISSnezhko_eshheМатериалы",
+  "modelName": "i-i-s-snezhko-eshhe-материалы",
+  "className": "Материалы",
+  "nameSpace": "IIS.Snezhko_eshhe",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодДетали",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "производитель",
+      "relatedTo": "i-i-s-snezhko-eshhe-производитель",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МатериалыE",
+      "modelName": "i-i-s-snezhko-eshhe-материалы",
+      "attrs": [
+        {
+          "name": "кодДетали",
+          "caption": "Код детали",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Производитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Производитель",
+          "name": "производитель",
+          "relatedTo": "i-i-s-snezhko-eshhe-производитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "МатериалыL",
+      "modelName": "i-i-s-snezhko-eshhe-материалы",
+      "attrs": [
+        {
+          "name": "кодДетали",
+          "caption": "Код детали",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Производитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "производитель",
+          "relatedTo": "i-i-s-snezhko-eshhe-производитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

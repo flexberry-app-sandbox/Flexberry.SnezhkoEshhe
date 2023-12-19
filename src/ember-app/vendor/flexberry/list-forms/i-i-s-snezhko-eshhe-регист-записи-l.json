@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-регист-записи-e",
+  "editForm": "i-i-s-snezhko-eshhe-регист-записи-e",
+  "external": false,
+  "caption": "Регист записи",
+  "name": "IISSnezhko_eshheРегистЗаписиL",
+  "className": "РегистЗаписиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-регист-записи",
+      "modelProjection": "РегистЗаписиL"
+    }
+  ]
+}

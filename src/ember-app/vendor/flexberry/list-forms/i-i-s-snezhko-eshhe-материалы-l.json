@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-материалы-e",
+  "editForm": "i-i-s-snezhko-eshhe-материалы-e",
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISSnezhko_eshheМатериалыL",
+  "className": "МатериалыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-материалы",
+      "modelProjection": "МатериалыL"
+    }
+  ]
+}

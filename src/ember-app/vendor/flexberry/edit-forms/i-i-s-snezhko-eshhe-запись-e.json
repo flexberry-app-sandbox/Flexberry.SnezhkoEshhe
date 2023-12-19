@@ -1,0 +1,55 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиент",
+      "projection": "КлиентL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Бокс",
+      "projection": "БоксL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": "услуга",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставЗаписи.Услуга",
+      "projection": "УслугаL",
+      "detailModelName": "i-i-s-snezhko-eshhe-состав-записи"
+    },
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "СоставЗаписи.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-snezhko-eshhe-состав-записи"
+    }
+  ],
+  "external": false,
+  "caption": "Запись",
+  "name": "IISSnezhko_eshheЗаписьE",
+  "className": "ЗаписьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-запись",
+      "modelProjection": "ЗаписьE"
+    }
+  ]
+}

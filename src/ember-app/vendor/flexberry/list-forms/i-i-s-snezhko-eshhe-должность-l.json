@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-должность-e",
+  "editForm": "i-i-s-snezhko-eshhe-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISSnezhko_eshheДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

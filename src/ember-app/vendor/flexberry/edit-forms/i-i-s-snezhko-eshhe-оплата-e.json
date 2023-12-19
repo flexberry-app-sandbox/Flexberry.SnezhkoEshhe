@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Запись",
+      "projection": "ЗаписьL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISSnezhko_eshheОплатаE",
+  "className": "ОплатаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-оплата",
+      "modelProjection": "ОплатаE"
+    }
+  ]
+}

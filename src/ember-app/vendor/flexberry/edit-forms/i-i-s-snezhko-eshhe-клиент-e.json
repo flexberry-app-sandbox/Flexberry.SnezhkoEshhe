@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "марка",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "Автомобиль.Марка",
+      "projection": "МаркаL",
+      "detailModelName": "i-i-s-snezhko-eshhe-автомобиль"
+    }
+  ],
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISSnezhko_eshheКлиентE",
+  "className": "КлиентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-клиент",
+      "modelProjection": "КлиентE"
+    }
+  ]
+}

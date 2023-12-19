@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-производитель-e",
+  "editForm": "i-i-s-snezhko-eshhe-производитель-e",
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISSnezhko_eshheПроизводительL",
+  "className": "ПроизводительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-производитель",
+      "modelProjection": "ПроизводительL"
+    }
+  ]
+}

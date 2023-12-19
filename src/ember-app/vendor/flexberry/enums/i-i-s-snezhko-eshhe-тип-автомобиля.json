@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Snezhko_eshhe",
+  "className": "ТипАвтомобиля",
+  "enumObjects": {
+    "0": "Легковой",
+    "1": "Грузовой"
+  }
+}

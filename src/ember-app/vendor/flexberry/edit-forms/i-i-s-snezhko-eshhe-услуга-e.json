@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "материалы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставУслуги.Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": "i-i-s-snezhko-eshhe-состав-услуги"
+    }
+  ],
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISSnezhko_eshheУслугаE",
+  "className": "УслугаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-услуга",
+      "modelProjection": "УслугаE"
+    }
+  ]
+}

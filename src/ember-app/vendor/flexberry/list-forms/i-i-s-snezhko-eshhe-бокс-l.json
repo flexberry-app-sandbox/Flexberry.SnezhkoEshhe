@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-бокс-e",
+  "editForm": "i-i-s-snezhko-eshhe-бокс-e",
+  "external": false,
+  "caption": "Бокс",
+  "name": "IISSnezhko_eshheБоксL",
+  "className": "БоксL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-бокс",
+      "modelProjection": "БоксL"
+    }
+  ]
+}

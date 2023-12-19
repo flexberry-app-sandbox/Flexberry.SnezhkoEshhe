@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-оплата-e",
+  "editForm": "i-i-s-snezhko-eshhe-оплата-e",
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISSnezhko_eshheОплатаL",
+  "className": "ОплатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-оплата",
+      "modelProjection": "ОплатаL"
+    }
+  ]
+}

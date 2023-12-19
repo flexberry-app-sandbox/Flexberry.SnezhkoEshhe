@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko-eshhe-клиент-e",
+  "editForm": "i-i-s-snezhko-eshhe-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISSnezhko_eshheКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko-eshhe-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

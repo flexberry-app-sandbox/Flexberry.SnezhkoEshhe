@@ -22,11 +22,11 @@ public class Materialy {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "КодДетали")
-    private Integer коддетали;
-
     @Column(name = "Наименование")
     private String наименование;
+
+    @Column(name = "КодМатериала")
+    private Integer кодматериала;
 
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Proizvoditel")
@@ -51,20 +51,20 @@ public class Materialy {
         return primarykey;
     }
 
-    public Integer getКодДетали() {
-      return коддетали;
-    }
-
-    public void setКодДетали(Integer коддетали) {
-      this.коддетали = коддетали;
-    }
-
     public String getНаименование() {
       return наименование;
     }
 
     public void setНаименование(String наименование) {
       this.наименование = наименование;
+    }
+
+    public Integer getКодМатериала() {
+      return кодматериала;
+    }
+
+    public void setКодМатериала(Integer кодматериала) {
+      this.кодматериала = кодматериала;
     }
 
 

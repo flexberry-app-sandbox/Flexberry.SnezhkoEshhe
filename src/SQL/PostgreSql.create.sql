@@ -92,7 +92,7 @@ CREATE TABLE СоставУслуги (
 
 CREATE TABLE Материалы (
  primaryKey UUID NOT NULL,
- КодДетали INT NULL,
+ КодМатериала INT NULL,
  Наименование VARCHAR(255) NULL,
  Производитель UUID NOT NULL,
  PRIMARY KEY (primaryKey));

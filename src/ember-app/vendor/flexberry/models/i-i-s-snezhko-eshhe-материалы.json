@@ -7,7 +7,7 @@
   "parentClassName": null,
   "attrs": [
     {
-      "name": "кодДетали",
+      "name": "кодМатериала",
       "type": "number",
       "flexberryType": "int",
       "notNull": false,
@@ -41,7 +41,7 @@
       "modelName": "i-i-s-snezhko-eshhe-материалы",
       "attrs": [
         {
-          "name": "кодДетали",
+          "name": "кодМатериала",
           "caption": "Код материала",
           "hidden": false,
           "index": 0
@@ -83,7 +83,7 @@
       "modelName": "i-i-s-snezhko-eshhe-материалы",
       "attrs": [
         {
-          "name": "кодДетали",
+          "name": "кодМатериала",
           "caption": "Код материала",
           "hidden": false,
           "index": 0

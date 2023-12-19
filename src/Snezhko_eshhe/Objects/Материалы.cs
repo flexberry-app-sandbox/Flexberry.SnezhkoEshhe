@@ -29,22 +29,22 @@ namespace IIS.Snezhko_eshhe
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("МатериалыE", new string[] {
-            "КодДетали as \'Код материала\'",
+            "КодМатериала as \'Код материала\'",
             "Наименование as \'Наименование\'",
             "Производитель as \'Производитель\'",
             "Производитель.Наименование as \'Наименование\'"}, Hidden=new string[] {
             "Производитель.Наименование"})]
     [MasterViewDefineAttribute("МатериалыE", "Производитель", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("МатериалыL", new string[] {
-            "КодДетали as \'Код материала\'",
+            "КодМатериала as \'Код материала\'",
             "Наименование as \'Наименование\'",
             "Производитель.Наименование as \'Наименование\'"})]
     public class Материалы : ICSSoft.STORMNET.DataObject
     {
         
-        private int fКодДетали;
-        
         private string fНаименование;
+        
+        private int fКодМатериала;
         
         private IIS.Snezhko_eshhe.Производитель fПроизводитель;
         
@@ -54,33 +54,33 @@ namespace IIS.Snezhko_eshhe
 
         
         /// <summary>
-        /// КодДетали.
+        /// КодМатериала.
         /// </summary>
-        // *** Start programmer edit section *** (Материалы.КодДетали CustomAttributes)
+        // *** Start programmer edit section *** (Материалы.КодМатериала CustomAttributes)
 
-        // *** End programmer edit section *** (Материалы.КодДетали CustomAttributes)
-        public virtual int КодДетали
+        // *** End programmer edit section *** (Материалы.КодМатериала CustomAttributes)
+        public virtual int КодМатериала
         {
             get
             {
-                // *** Start programmer edit section *** (Материалы.КодДетали Get start)
+                // *** Start programmer edit section *** (Материалы.КодМатериала Get start)
 
-                // *** End programmer edit section *** (Материалы.КодДетали Get start)
-                int result = this.fКодДетали;
-                // *** Start programmer edit section *** (Материалы.КодДетали Get end)
+                // *** End programmer edit section *** (Материалы.КодМатериала Get start)
+                int result = this.fКодМатериала;
+                // *** Start programmer edit section *** (Материалы.КодМатериала Get end)
 
-                // *** End programmer edit section *** (Материалы.КодДетали Get end)
+                // *** End programmer edit section *** (Материалы.КодМатериала Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (Материалы.КодДетали Set start)
+                // *** Start programmer edit section *** (Материалы.КодМатериала Set start)
 
-                // *** End programmer edit section *** (Материалы.КодДетали Set start)
-                this.fКодДетали = value;
-                // *** Start programmer edit section *** (Материалы.КодДетали Set end)
+                // *** End programmer edit section *** (Материалы.КодМатериала Set start)
+                this.fКодМатериала = value;
+                // *** Start programmer edit section *** (Материалы.КодМатериала Set end)
 
-                // *** End programmer edit section *** (Материалы.КодДетали Set end)
+                // *** End programmer edit section *** (Материалы.КодМатериала Set end)
             }
         }
         

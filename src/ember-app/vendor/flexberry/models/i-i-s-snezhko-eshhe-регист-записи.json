@@ -25,7 +25,7 @@
       "ordered": false
     },
     {
-      "name": "кодЗаказа",
+      "name": "кодЗаписи",
       "type": "number",
       "flexberryType": "int",
       "notNull": false,
@@ -51,8 +51,8 @@
       "modelName": "i-i-s-snezhko-eshhe-регист-записи",
       "attrs": [
         {
-          "name": "кодЗаказа",
-          "caption": "Код заказа",
+          "name": "кодЗаписи",
+          "caption": "Код записи",
           "hidden": false,
           "index": 0
         },
@@ -83,8 +83,8 @@
       "modelName": "i-i-s-snezhko-eshhe-регист-записи",
       "attrs": [
         {
-          "name": "кодЗаказа",
-          "caption": "Код заказа",
+          "name": "кодЗаписи",
+          "caption": "Код записи",
           "hidden": false,
           "index": 0
         },

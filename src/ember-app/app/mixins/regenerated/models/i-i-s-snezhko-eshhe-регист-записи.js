@@ -7,7 +7,7 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 export let Model = Mixin.create({
   время: DS.attr('string'),
   дата: DS.attr('date', { defaultValue() { return new Date(); } }),
-  кодЗаказа: DS.attr('number'),
+  кодЗаписи: DS.attr('number'),
   сумма: DS.attr('decimal')
 });
 
@@ -25,8 +25,8 @@ export let ValidationRules = {
       validator('date'),
     ],
   },
-  кодЗаказа: {
-    descriptionKey: 'models.i-i-s-snezhko-eshhe-регист-записи.validations.кодЗаказа.__caption__',
+  кодЗаписи: {
+    descriptionKey: 'models.i-i-s-snezhko-eshhe-регист-записи.validations.кодЗаписи.__caption__',
     validators: [
       validator('ds-error'),
       validator('number', { allowString: true, allowBlank: true, integer: true }),
@@ -43,14 +43,14 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('РегистЗаписиE', 'i-i-s-snezhko-eshhe-регист-записи', {
-    кодЗаказа: attr('Код заказа', { index: 0 }),
+    кодЗаписи: attr('Код записи', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     время: attr('Время', { index: 2 }),
     сумма: attr('Сумма', { index: 3 })
   });
 
   modelClass.defineProjection('РегистЗаписиL', 'i-i-s-snezhko-eshhe-регист-записи', {
-    кодЗаказа: attr('Код заказа', { index: 0 }),
+    кодЗаписи: attr('Код записи', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     время: attr('Время', { index: 2 }),
     сумма: attr('Сумма', { index: 3 })

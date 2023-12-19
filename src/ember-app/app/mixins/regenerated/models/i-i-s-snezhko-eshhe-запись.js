@@ -93,16 +93,15 @@ export let defineProjections = function (modelClass) {
     время: attr('Время', { index: 2 }),
     комментарий: attr('Комментарий', { index: 3 }),
     сумма: attr('Сумма', { index: 4 }),
-    кодЗаказа: attr('Код заказа', { index: 5 }),
     клиент: belongsTo('i-i-s-snezhko-eshhe-клиент', 'Клиент', {
-      фамилия: attr('Фамилия', { index: 7, hidden: true })
-    }, { index: 6, displayMemberPath: 'фамилия' }),
+      фамилия: attr('Фамилия', { index: 6, hidden: true })
+    }, { index: 5, displayMemberPath: 'фамилия' }),
     бокс: belongsTo('i-i-s-snezhko-eshhe-бокс', 'Бокс', {
-      номерБокса: attr('Номер бокса', { index: 9, hidden: true })
-    }, { index: 8, displayMemberPath: 'номерБокса' }),
+      номерБокса: attr('Номер бокса', { index: 8, hidden: true })
+    }, { index: 7, displayMemberPath: 'номерБокса' }),
     сотрудники: belongsTo('i-i-s-snezhko-eshhe-сотрудники', 'Сотрудники', {
-      фамилия: attr('Фамилия', { index: 11, hidden: true })
-    }, { index: 10, displayMemberPath: 'фамилия' }),
+      фамилия: attr('Фамилия', { index: 10, hidden: true })
+    }, { index: 9, displayMemberPath: 'фамилия' }),
     составЗаписи: hasMany('i-i-s-snezhko-eshhe-состав-записи', 'Состав записи', {
       услуга: belongsTo('i-i-s-snezhko-eshhe-услуга', 'Услуга', {
         наименование: attr('Наименование', { index: 1, hidden: true }),
@@ -120,15 +119,14 @@ export let defineProjections = function (modelClass) {
     время: attr('Время', { index: 2 }),
     комментарий: attr('Комментарий', { index: 3 }),
     сумма: attr('Сумма', { index: 4 }),
-    кодЗаказа: attr('Код заказа', { index: 5 }),
     клиент: belongsTo('i-i-s-snezhko-eshhe-клиент', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 6 })
+      фамилия: attr('Фамилия', { index: 5 })
     }, { index: -1, hidden: true }),
     бокс: belongsTo('i-i-s-snezhko-eshhe-бокс', 'Номер бокса', {
-      номерБокса: attr('Номер бокса', { index: 7 })
+      номерБокса: attr('Номер бокса', { index: 6 })
     }, { index: -1, hidden: true }),
     сотрудники: belongsTo('i-i-s-snezhko-eshhe-сотрудники', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 8 })
+      фамилия: attr('Фамилия', { index: 7 })
     }, { index: -1, hidden: true })
   });
 };

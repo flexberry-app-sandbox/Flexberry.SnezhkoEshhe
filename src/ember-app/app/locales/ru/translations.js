@@ -122,6 +122,82 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        'справочник-услуг': {
+          caption: 'Справочник услуг',
+          title: 'Справочник услуг',
+          'i-i-s-snezhko-eshhe-услуга-l': {
+            caption: 'Услуга',
+            title: 'Услуга'
+          }
+        },
+        оплата: {
+          caption: 'Оплата',
+          title: 'Оплата',
+          'i-i-s-snezhko-eshhe-оплата-l': {
+            caption: 'Оплата',
+            title: 'Оплата'
+          }
+        },
+        запись: {
+          caption: 'Запись',
+          title: 'Запись',
+          'i-i-s-snezhko-eshhe-запись-l': {
+            caption: 'Запись',
+            title: 'Запись'
+          }
+        },
+        'справочник-материалы': {
+          caption: 'Справочник материалы',
+          title: 'Справочник материалы',
+          'i-i-s-snezhko-eshhe-материалы-l': {
+            caption: 'Материалы',
+            title: 'Материалы'
+          },
+          'i-i-s-snezhko-eshhe-производитель-l': {
+            caption: 'Производитель',
+            title: 'Производитель'
+          }
+        },
+        сотрудники: {
+          caption: 'Сотрудники',
+          title: 'Сотрудники',
+          'i-i-s-snezhko-eshhe-должность-l': {
+            caption: 'Должность',
+            title: 'Должность'
+          },
+          'i-i-s-snezhko-eshhe-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          }
+        },
+        клиент: {
+          caption: 'Клиент',
+          title: 'Клиент',
+          'i-i-s-snezhko-eshhe-клиент-l': {
+            caption: 'Клиент',
+            title: 'Клиент'
+          }
+        },
+        'боксы-марки': {
+          caption: 'Боксы/Марки',
+          title: 'Боксы/Марки',
+          'i-i-s-snezhko-eshhe-марка-l': {
+            caption: 'Марка',
+            title: 'Марка'
+          },
+          'i-i-s-snezhko-eshhe-бокс-l': {
+            caption: 'Бокс',
+            title: 'Бокс'
+          }
+        },
+        'регистр-записи': {
+          caption: 'Регистр записи',
+          title: 'Регистр записи',
+          'i-i-s-snezhko-eshhe-регист-записи-l': {
+            caption: 'РегистЗаписи',
+            title: 'Регист записи'
+          }
+        },
         'snezhko-eshhe': {
           caption: 'Snezhko_eshhe',
           title: 'Snezhko_eshhe',

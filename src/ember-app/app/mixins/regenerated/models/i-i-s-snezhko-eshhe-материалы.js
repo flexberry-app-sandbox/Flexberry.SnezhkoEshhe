@@ -35,7 +35,7 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('МатериалыE', 'i-i-s-snezhko-eshhe-материалы', {
-    кодДетали: attr('Код детали', { index: 0 }),
+    кодДетали: attr('Код материала', { index: 0 }),
     наименование: attr('Наименование', { index: 1 }),
     производитель: belongsTo('i-i-s-snezhko-eshhe-производитель', 'Производитель', {
       наименование: attr('Наименование', { index: 3, hidden: true })
@@ -43,7 +43,7 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('МатериалыL', 'i-i-s-snezhko-eshhe-материалы', {
-    кодДетали: attr('Код детали', { index: 0 }),
+    кодДетали: attr('Код материала', { index: 0 }),
     наименование: attr('Наименование', { index: 1 }),
     производитель: belongsTo('i-i-s-snezhko-eshhe-производитель', 'Наименование', {
       наименование: attr('Наименование', { index: 2 })

@@ -30,25 +30,25 @@ namespace IIS.Snezhko_eshhe
     [Caption("Регист записи")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("РегистЗаписиE", new string[] {
-            "КодЗаказа as \'Код заказа\'",
+            "КодЗаписи as \'Код записи\'",
             "Дата as \'Дата\'",
             "Время as \'Время\'",
             "Сумма as \'Сумма\'"})]
     [View("РегистЗаписиL", new string[] {
-            "КодЗаказа as \'Код заказа\'",
+            "КодЗаписи as \'Код записи\'",
             "Дата as \'Дата\'",
             "Время as \'Время\'",
             "Сумма as \'Сумма\'"})]
     public class РегистЗаписи : ICSSoft.STORMNET.DataObject
     {
         
-        private int fКодЗаказа;
-        
         private System.DateTime fДата = System.DateTime.Now;
         
         private string fВремя;
         
         private double fСумма;
+        
+        private int fКодЗаписи;
         
         // *** Start programmer edit section *** (РегистЗаписи CustomMembers)
 
@@ -119,33 +119,33 @@ namespace IIS.Snezhko_eshhe
         }
         
         /// <summary>
-        /// КодЗаказа.
+        /// КодЗаписи.
         /// </summary>
-        // *** Start programmer edit section *** (РегистЗаписи.КодЗаказа CustomAttributes)
+        // *** Start programmer edit section *** (РегистЗаписи.КодЗаписи CustomAttributes)
 
-        // *** End programmer edit section *** (РегистЗаписи.КодЗаказа CustomAttributes)
-        public virtual int КодЗаказа
+        // *** End programmer edit section *** (РегистЗаписи.КодЗаписи CustomAttributes)
+        public virtual int КодЗаписи
         {
             get
             {
-                // *** Start programmer edit section *** (РегистЗаписи.КодЗаказа Get start)
+                // *** Start programmer edit section *** (РегистЗаписи.КодЗаписи Get start)
 
-                // *** End programmer edit section *** (РегистЗаписи.КодЗаказа Get start)
-                int result = this.fКодЗаказа;
-                // *** Start programmer edit section *** (РегистЗаписи.КодЗаказа Get end)
+                // *** End programmer edit section *** (РегистЗаписи.КодЗаписи Get start)
+                int result = this.fКодЗаписи;
+                // *** Start programmer edit section *** (РегистЗаписи.КодЗаписи Get end)
 
-                // *** End programmer edit section *** (РегистЗаписи.КодЗаказа Get end)
+                // *** End programmer edit section *** (РегистЗаписи.КодЗаписи Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (РегистЗаписи.КодЗаказа Set start)
+                // *** Start programmer edit section *** (РегистЗаписи.КодЗаписи Set start)
 
-                // *** End programmer edit section *** (РегистЗаписи.КодЗаказа Set start)
-                this.fКодЗаказа = value;
-                // *** Start programmer edit section *** (РегистЗаписи.КодЗаказа Set end)
+                // *** End programmer edit section *** (РегистЗаписи.КодЗаписи Set start)
+                this.fКодЗаписи = value;
+                // *** Start programmer edit section *** (РегистЗаписи.КодЗаписи Set end)
 
-                // *** End programmer edit section *** (РегистЗаписи.КодЗаказа Set end)
+                // *** End programmer edit section *** (РегистЗаписи.КодЗаписи Set end)
             }
         }
         

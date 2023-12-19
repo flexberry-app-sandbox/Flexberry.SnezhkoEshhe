@@ -39,9 +39,6 @@ public class Zapis {
     @Column(name = "Сумма")
     private Double сумма;
 
-    @Column(name = "КодЗаказа")
-    private Integer кодзаказа;
-
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Klient")
     @Convert("Klient")
@@ -126,14 +123,6 @@ public class Zapis {
 
     public void setСумма(Double сумма) {
       this.сумма = сумма;
-    }
-
-    public Integer getКодЗаказа() {
-      return кодзаказа;
-    }
-
-    public void setКодЗаказа(Integer кодзаказа) {
-      this.кодзаказа = кодзаказа;
     }
 
 

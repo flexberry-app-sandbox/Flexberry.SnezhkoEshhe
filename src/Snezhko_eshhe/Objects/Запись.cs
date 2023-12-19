@@ -34,7 +34,6 @@ namespace IIS.Snezhko_eshhe
             "Время as \'Время\'",
             "Комментарий as \'Комментарий\'",
             "Сумма as \'Сумма\'",
-            "КодЗаказа as \'Код заказа\'",
             "Клиент as \'Клиент\'",
             "Клиент.Фамилия as \'Фамилия\'",
             "Бокс as \'Бокс\'",
@@ -55,14 +54,11 @@ namespace IIS.Snezhko_eshhe
             "Время as \'Время\'",
             "Комментарий as \'Комментарий\'",
             "Сумма as \'Сумма\'",
-            "КодЗаказа as \'Код заказа\'",
             "Клиент.Фамилия as \'Фамилия\'",
             "Бокс.НомерБокса as \'Номер бокса\'",
             "Сотрудники.Фамилия as \'Фамилия\'"})]
     public class Запись : IIS.Snezhko_eshhe.РегистЗаписи
     {
-        
-        private int fКодЗаписи;
         
         private string fКомментарий;
         
@@ -148,14 +144,14 @@ namespace IIS.Snezhko_eshhe
         // *** Start programmer edit section *** (Запись.КодЗаписи CustomAttributes)
 
         // *** End programmer edit section *** (Запись.КодЗаписи CustomAttributes)
-        public virtual int КодЗаписи
+        public override int КодЗаписи
         {
             get
             {
                 // *** Start programmer edit section *** (Запись.КодЗаписи Get start)
 
                 // *** End programmer edit section *** (Запись.КодЗаписи Get start)
-                int result = this.fКодЗаписи;
+                int result = base.КодЗаписи;
                 // *** Start programmer edit section *** (Запись.КодЗаписи Get end)
 
                 // *** End programmer edit section *** (Запись.КодЗаписи Get end)
@@ -166,7 +162,7 @@ namespace IIS.Snezhko_eshhe
                 // *** Start programmer edit section *** (Запись.КодЗаписи Set start)
 
                 // *** End programmer edit section *** (Запись.КодЗаписи Set start)
-                this.fКодЗаписи = value;
+                base.КодЗаписи = value;
                 // *** Start programmer edit section *** (Запись.КодЗаписи Set end)
 
                 // *** End programmer edit section *** (Запись.КодЗаписи Set end)

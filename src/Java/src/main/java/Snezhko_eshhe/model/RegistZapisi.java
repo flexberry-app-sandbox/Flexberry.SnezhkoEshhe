@@ -22,9 +22,6 @@ public class RegistZapisi {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "КодЗаказа")
-    private Integer кодзаказа;
-
     @Column(name = "Дата")
     private Date дата;
 
@@ -33,6 +30,9 @@ public class RegistZapisi {
 
     @Column(name = "Сумма")
     private Double сумма;
+
+    @Column(name = "КодЗаписи")
+    private Integer кодзаписи;
 
 
     public RegistZapisi() {
@@ -45,14 +45,6 @@ public class RegistZapisi {
 
     public UUID getPrimarykey() {
         return primarykey;
-    }
-
-    public Integer getКодЗаказа() {
-      return кодзаказа;
-    }
-
-    public void setКодЗаказа(Integer кодзаказа) {
-      this.кодзаказа = кодзаказа;
     }
 
     public Date getДата() {
@@ -77,6 +69,14 @@ public class RegistZapisi {
 
     public void setСумма(Double сумма) {
       this.сумма = сумма;
+    }
+
+    public Integer getКодЗаписи() {
+      return кодзаписи;
+    }
+
+    public void setКодЗаписи(Integer кодзаписи) {
+      this.кодзаписи = кодзаписи;
     }
 
 

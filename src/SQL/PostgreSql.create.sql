@@ -7,7 +7,7 @@ CREATE TABLE РегистЗаписи (
  primaryKey UUID NOT NULL,
  Время VARCHAR(255) NULL,
  Дата TIMESTAMP(3) NULL,
- КодЗаказа INT NULL,
+ КодЗаписи INT NULL,
  Сумма DOUBLE PRECISION NULL,
  PRIMARY KEY (primaryKey));
 
@@ -64,7 +64,6 @@ CREATE TABLE Запись (
  КодЗаписи INT NULL,
  Комментарий VARCHAR(255) NULL,
  Сумма DOUBLE PRECISION NULL,
- КодЗаказа INT NULL,
  Бокс UUID NOT NULL,
  Клиент UUID NOT NULL,
  Сотрудники UUID NOT NULL,
@@ -84,7 +83,7 @@ CREATE TABLE Клиент (
 
 CREATE TABLE СоставУслуги (
  primaryKey UUID NOT NULL,
- Единицы VARCHAR(1) NULL,
+ Единицы VARCHAR(2) NULL,
  Количество INT NULL,
  Материалы UUID NOT NULL,
  Услуга UUID NOT NULL,

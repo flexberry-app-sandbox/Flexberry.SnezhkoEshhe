@@ -29,14 +29,14 @@ namespace IIS.Snezhko_eshhe
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("МатериалыE", new string[] {
-            "КодДетали as \'Код детали\'",
+            "КодДетали as \'Код материала\'",
             "Наименование as \'Наименование\'",
             "Производитель as \'Производитель\'",
             "Производитель.Наименование as \'Наименование\'"}, Hidden=new string[] {
             "Производитель.Наименование"})]
     [MasterViewDefineAttribute("МатериалыE", "Производитель", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("МатериалыL", new string[] {
-            "КодДетали as \'Код детали\'",
+            "КодДетали as \'Код материала\'",
             "Наименование as \'Наименование\'",
             "Производитель.Наименование as \'Наименование\'"})]
     public class Материалы : ICSSoft.STORMNET.DataObject

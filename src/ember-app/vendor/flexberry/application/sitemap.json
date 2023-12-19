@@ -4,85 +4,141 @@
   "items": [
     {
       "link": null,
-      "menuName": "snezhko-eshhe",
-      "caption": "Snezhko_eshhe",
-      "title": "Snezhko_eshhe",
+      "menuName": "справочник-услуг",
+      "caption": "Справочник услуг",
+      "title": "Справочник услуг",
       "children": [
         {
-          "link": "i-i-s-snezhko-eshhe-регист-записи-l",
+          "link": "i-i-s-snezhko-eshhe-услуга-l",
           "menuName": null,
-          "caption": "Регист записи",
-          "title": "",
+          "caption": "Услуга",
+          "title": "Услуга",
           "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "оплата",
+      "caption": "Оплата",
+      "title": "Оплата",
+      "children": [
         {
           "link": "i-i-s-snezhko-eshhe-оплата-l",
           "menuName": null,
           "caption": "Оплата",
-          "title": "",
+          "title": "Оплата",
           "children": null
-        },
-        {
-          "link": "i-i-s-snezhko-eshhe-должность-l",
-          "menuName": null,
-          "caption": "Должность",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-snezhko-eshhe-сотрудники-l",
-          "menuName": null,
-          "caption": "Сотрудники",
-          "title": "",
-          "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "запись",
+      "caption": "Запись",
+      "title": "Запись",
+      "children": [
         {
           "link": "i-i-s-snezhko-eshhe-запись-l",
           "menuName": null,
           "caption": "Запись",
-          "title": "",
+          "title": "Запись",
           "children": null
-        },
-        {
-          "link": "i-i-s-snezhko-eshhe-клиент-l",
-          "menuName": null,
-          "caption": "Клиент",
-          "title": "",
-          "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-материалы",
+      "caption": "Справочник материалы",
+      "title": "Справочник материалы",
+      "children": [
         {
           "link": "i-i-s-snezhko-eshhe-материалы-l",
           "menuName": null,
           "caption": "Материалы",
-          "title": "",
+          "title": "Материалы",
           "children": null
         },
         {
           "link": "i-i-s-snezhko-eshhe-производитель-l",
           "menuName": null,
           "caption": "Производитель",
-          "title": "",
+          "title": "Производитель",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-snezhko-eshhe-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "Должность",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko-eshhe-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "клиент",
+      "caption": "Клиент",
+      "title": "Клиент",
+      "children": [
+        {
+          "link": "i-i-s-snezhko-eshhe-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "боксы-марки",
+      "caption": "Боксы/Марки",
+      "title": "Боксы/Марки",
+      "children": [
+        {
+          "link": "i-i-s-snezhko-eshhe-марка-l",
+          "menuName": null,
+          "caption": "Марка",
+          "title": "Марка",
           "children": null
         },
         {
           "link": "i-i-s-snezhko-eshhe-бокс-l",
           "menuName": null,
           "caption": "Бокс",
-          "title": "",
+          "title": "Бокс",
           "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "регистр-записи",
+      "caption": "Регистр записи",
+      "title": "Регистр записи",
+      "children": [
         {
-          "link": "i-i-s-snezhko-eshhe-марка-l",
+          "link": "i-i-s-snezhko-eshhe-регист-записи-l",
           "menuName": null,
-          "caption": "Марка",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-snezhko-eshhe-услуга-l",
-          "menuName": null,
-          "caption": "Услуга",
-          "title": "",
+          "caption": "РегистЗаписи",
+          "title": "Регист записи",
           "children": null
         }
       ]

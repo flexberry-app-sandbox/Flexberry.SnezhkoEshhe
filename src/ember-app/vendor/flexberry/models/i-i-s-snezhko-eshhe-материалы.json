@@ -42,7 +42,7 @@
       "attrs": [
         {
           "name": "кодДетали",
-          "caption": "Код детали",
+          "caption": "Код материала",
           "hidden": false,
           "index": 0
         },
@@ -84,7 +84,7 @@
       "attrs": [
         {
           "name": "кодДетали",
-          "caption": "Код детали",
+          "caption": "Код материала",
           "hidden": false,
           "index": 0
         },

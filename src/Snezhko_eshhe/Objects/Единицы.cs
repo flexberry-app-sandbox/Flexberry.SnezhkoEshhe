@@ -12,6 +12,7 @@ namespace IIS.Snezhko_eshhe
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,26 +32,31 @@ namespace IIS.Snezhko_eshhe
         // *** Start programmer edit section *** (Единицы.1 CustomAttributes)
 
         // *** End programmer edit section *** (Единицы.1 CustomAttributes)
+        [Caption("Л")]
         1,
+        
+        // *** Start programmer edit section *** (Единицы.4 CustomAttributes)
+
+        // *** End programmer edit section *** (Единицы.4 CustomAttributes)
+        [Caption("Шт")]
+        4,
         
         // *** Start programmer edit section *** (Единицы.2 CustomAttributes)
 
         // *** End programmer edit section *** (Единицы.2 CustomAttributes)
+        [Caption("Г")]
         2,
         
         // *** Start programmer edit section *** (Единицы.3 CustomAttributes)
 
         // *** End programmer edit section *** (Единицы.3 CustomAttributes)
+        [Caption("Мл")]
         3,
-        
-        // *** Start programmer edit section *** (Единицы.4 CustomAttributes)
-
-        // *** End programmer edit section *** (Единицы.4 CustomAttributes)
-        4,
         
         // *** Start programmer edit section *** (Единицы.5 CustomAttributes)
 
         // *** End programmer edit section *** (Единицы.5 CustomAttributes)
+        [Caption("Кг")]
         5,
     }
 }
